@@ -54,3 +54,5 @@ target_link_libraries(third_party_include PUBLIC
     ${BOOST_FILESYSTEM_LIB}
     ${BOOST_SYSTEM_LIB}
 )
+
+install(TARGETS third_party_include DESTINATION bin)
